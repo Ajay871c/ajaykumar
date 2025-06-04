@@ -12,7 +12,7 @@ const Footer = () => {
         <footer className="">
                 <div className="">
                     <p className="">
-                        &copy; {new Date().getFullYear()} ajaykumar.vercel.app. All
+                        &copy; {new Date().getFullYear()} ajay871c.vercel.app. All
                         rights reserved.
                     </p>
                 </div>

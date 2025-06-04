@@ -1,4 +1,4 @@
 module.exports = {
-  siteUrl: 'http://localhost:3000/',
+  siteUrl: 'https://ajay871c.vercel.app/',
   generateRobotsTxt: true,
 };
