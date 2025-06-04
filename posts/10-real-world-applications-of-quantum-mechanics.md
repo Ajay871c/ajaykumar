@@ -119,5 +119,5 @@ Quantum mechanics isn’t just theoretical—it powers the world around us. From
 
 ---
 
-If you liked this blog, check out our [Beginner's Guide to Quantum Entanglement](/quantum-entanglement) and other physics topics!
+If you liked this blog, check out our [Beginner's Guide to Quantum Entanglement](/what-is-quantum-entanglement-a-bginners-guide) and other physics topics!
 
