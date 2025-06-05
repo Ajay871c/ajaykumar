@@ -167,6 +167,70 @@ body {
             }
         }
 
+        // library page
+
+        .library {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            .libraryTitle {
+                height: 200px;
+                background: $bg-soft;
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                h1 {
+                    text-align: center;
+                    color: $button;
+                    font-size: 46px;
+                }
+            }
+
+            .articleSerieses {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+
+                h2 {
+                    margin-bottom: 20px;
+                    font-size: 18px;
+                }
+
+                .articleSeries {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    ul {
+                        margin-left: 20px;
+                        list-style-type: lower-roman;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 5px;
+
+
+                        .article {
+                            background: $bg-soft;
+                            width: fit-content;
+                            padding: .4rem;
+                            border-radius: .1rem;
+                            font-weight: 500;
+                            color: $text-soft;
+                            transition: all .5s;
+
+                            &:hover{
+                                background: $bg;
+                                color: $text;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
         // Blog List Page
 
         .blogList {
@@ -206,6 +270,7 @@ body {
             .categories {
                 display: flex;
                 gap: 10px;
+                flex-wrap: wrap;
 
                 .category {
                     outline: none !important;
@@ -404,7 +469,7 @@ body {
                 gap: 10px;
                 line-height: 30px;
 
-                ul {
+                ul, ol {
                     margin-left: 30px;
                 }
             }

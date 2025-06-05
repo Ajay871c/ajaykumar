@@ -3,6 +3,14 @@ import path from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
+import remarkGfm from "remark-gfm";
+import remarkMath from "remark-math";
+import rehypeKatex from "rehype-katex";
+import rehypeStringify from "rehype-stringify";
+import { unified } from "unified";
+import remarkParse from "remark-parse";
+import remarkRehype from "remark-rehype";
+
 
 const postsDirectory = path.join(process.cwd(), "posts");
 
@@ -42,9 +50,15 @@ export async function getPostData(id) {
 
         const matterResult = matter(fileContents);
 
-        const processedContent = await remark()
-            .use(html)
+        const processedContent = await unified()
+            .use(remarkParse)          // Parse markdown to mdast
+            .use(remarkGfm)            // Support tables, strikethrough etc.
+            .use(remarkMath)           // Parse math blocks
+            .use(remarkRehype)         // Convert mdast to hast (bridge)
+            .use(rehypeKatex)          // Render math to HTML
+            .use(rehypeStringify)      // Serialize HTML
             .process(matterResult.content);
+
         const contentHtml = processedContent.toString();
 
         return {

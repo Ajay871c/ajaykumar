@@ -14,7 +14,7 @@ export default function Home() {
                 weaving worlds through words.
             </p>
             <div className="btns">
-                <Link href="/" className="btn-1">
+                <Link href="/about" className="btn-1">
                     About Me
                 </Link>
                 <Link href="/blog" className="btn-2">

@@ -3,6 +3,8 @@ import "./globals.css";
 import "@/styles/globals.scss";
 import Footer from "@/components/Footer";
 import ThemeProvider from "@/components/ThemeProvider";
+import 'katex/dist/katex.min.css';
+
 
 export const metadata = {
     title: "Ajay's Blog",
