@@ -3,6 +3,17 @@ import React from "react";
 const articleSeries = [
     {
         id: 1,
+        title: "Understanding General Relativity: From Curved Space to Black Holes",
+        article: [
+            {
+                id: 1,
+                name: "Why Space Curves — The Need for General Relativity",
+                url: "/blog/why-space-curves-the-need-for-general-relativity",
+            },
+        ],
+    },
+    {
+        id: 2,
         title: "The Quantum Vacuum: Nothingness Full of Everything",
         article: [
             {
