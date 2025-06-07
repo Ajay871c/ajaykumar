@@ -1,7 +1,7 @@
 ---
 title: "Wave-Particle Duality in Simple Words"
 description: "Wave-particle duality explained for students: Understand how light and matter behave as both waves and particles with simple analogies and real-world examples."
-date: "2025-06-03"
+date: "2025-06-04"
 author: "Ajay Kumar"
 authorImage: "/profile.jpg"
 coverImage: "/duality.webp"

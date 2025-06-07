@@ -433,6 +433,7 @@ body {
                     .cats {
                         display: flex;
                         gap: 10px;
+                        flex-wrap: wrap;
 
                         .cat {
                             background: $bg-soft;

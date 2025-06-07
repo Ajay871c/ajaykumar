@@ -1,7 +1,7 @@
 ---
 title: "Geometry of Spacetime — Curvature and Coordinates"
 description: "What does it mean to say space-time is curved? In this post, explore the mathematical heart of General Relativity — spacetime as a 4D continuum, curvature, and the role of coordinates."
-date: "2025-06-10"
+date: "2025-06-7"
 author: "Ajay Kumar"
 authorImage: "/profile.jpg"
 coverImage: "/spacetime-geometry.webp"
