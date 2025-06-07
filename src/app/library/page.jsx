@@ -10,6 +10,11 @@ const articleSeries = [
                 name: "Why Space Curves — The Need for General Relativity",
                 url: "/blog/why-space-curves-the-need-for-general-relativity",
             },
+            {
+                id: 2,
+                name: "Geometry of Spacetime — Curvature and Coordinates",
+                url: "/blog/geometry-of-spacetime-curvature-and-coordinates",
+            },
         ],
     },
     {
