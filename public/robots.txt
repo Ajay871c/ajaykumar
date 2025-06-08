@@ -2,8 +2,4 @@
 User-agent: *
 Allow: /
 
-# Host
-Host: https://ajay871c.vercel.app/
-
-# Sitemaps
 Sitemap: https://ajay871c.vercel.app/sitemap.xml
