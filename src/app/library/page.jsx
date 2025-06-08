@@ -15,6 +15,11 @@ const articleSeries = [
                 name: "Geometry of Spacetime — Curvature and Coordinates",
                 url: "/blog/geometry-of-spacetime-curvature-and-coordinates",
             },
+            {
+                id: 3,
+                name: "Einstein’s Field Equations — Meaning and Motivation",
+                url: "/blog/einstein-field-equations-explained",
+            },
         ],
     },
     {
