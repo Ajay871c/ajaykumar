@@ -1,7 +1,7 @@
 ---
 title: "Why Space Curves — The Need for General Relativity"
 description: "Discover why Newton’s gravity wasn't enough, and how Einstein’s insights on space, time, and geometry laid the foundation for General Relativity."
-date: "2025-06-03"
+date: "2025-06-06"
 author: "Ajay Kumar"
 authorImage: "/profile.jpg"
 coverImage: "/general-relativity-curved-space.webp"
