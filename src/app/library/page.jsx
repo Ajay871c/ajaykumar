@@ -69,7 +69,7 @@ const LibraryPage = () => {
     return (
         <main className="library">
             <div className="libraryTitle">
-                <h1>Article Series</h1>
+                <h1>Series</h1>
             </div>
             {articleSeries.map((articles) => (
                 <div className="articleSerieses" key={articles.id}>
