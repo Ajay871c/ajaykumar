@@ -1,4 +1,4 @@
 module.exports = {
-  siteUrl: 'https://ajay871c.vercel.app/',
+  siteUrl: 'https://impulseblog.vercel.app/',
   generateRobotsTxt: false,
 };

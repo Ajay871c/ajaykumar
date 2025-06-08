@@ -29,7 +29,7 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <div className="logo">
-                <a href="/">@Ajay871c</a>
+                <a href="/">impulseBlog</a>
             </div>
             <ul>
                 <li>
@@ -37,9 +37,6 @@ const Navbar = () => {
                 </li>
                 <li>
                     <Link href="/library">Library</Link>
-                </li>
-                <li>
-                    <Link href="/contact">Contact</Link>
                 </li>
                 <li>
                     <button onClick={toggleDarkMode} className="togBtn">

@@ -1,14 +1,17 @@
 "use client";
+import Image from "next/image";
 import React from "react";
 
 const Contact = () => {
     return (
         <div className="contact">
             <div className="left">
-                <h2>Contact Me</h2>
+                <div className="imgCont">
+                    <Image src="/contact.webp" fill alt="Contact image" />
+                </div>
                 <p>
                     If you have any questions, feedback, or just want to say
-                    hello, feel free to reach out using the form below.
+                    hello, feel free to reach out using the form.
                 </p>
             </div>
             <form
@@ -16,6 +19,7 @@ const Contact = () => {
                 method="post"
                 className="right"
             >
+                <h2>Contact Me</h2>
                 <input
                     type="text"
                     name="name"
