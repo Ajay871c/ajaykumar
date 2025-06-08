@@ -18,6 +18,10 @@ export default function RootLayout({ children }) {
                     name="google-site-verification"
                     content="qv8EepSnae3WBHg4mDhYLmBkpnFQvMf3jXQLHcPWuh8"
                 />
+                <meta
+                    name="google-adsense-account"
+                    content="ca-pub-6521956344939059"
+                ></meta>
                 <link rel="icon" href="/favicon.ico" />
             </head>
             <body className="">
