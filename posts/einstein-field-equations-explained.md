@@ -81,22 +81,16 @@ $$
 
 Here’s what each symbol means:
 
--   $$( R\_{\mu\nu} )$$: **Ricci curvature tensor**, showing how volumes change under curvature.
+-   $$( R_{\mu\nu} )$$: **Ricci curvature tensor**, showing how volumes change under curvature.
 -   $$( R )$$: **Ricci scalar**, a single number representing the overall curvature.
--   $$( g\_{\mu\nu} )$$: **Metric tensor**, describes distances and angles in curved space-time.
--   $$( T\_{\mu\nu} )$$: **Stress-energy tensor**, tells how energy and momentum are distributed.
+-   $$( g_{\mu\nu} )$$: **Metric tensor**, describes distances and angles in curved space-time.
+-   $$( T_{\mu\nu} )$$: **Stress-energy tensor**, tells how energy and momentum are distributed.
 -   $$( G )$$: Newton’s gravitational constant.
 -   $$( c )$$: Speed of light.
 
 The left side describes **geometry**. The right side describes **matter and energy**. This one equation holds the key to modeling black holes, the expansion of the universe, gravitational waves, and more.
 
 ---
-
-Let me know when you're ready to continue with:
-
--   **What Each Term Represents**
--   **Stress-Energy Tensor: Source of Gravity**
--   **Why It’s So Hard to Solve**
 
 ### 4. What Each Term Represents
 
@@ -127,8 +121,8 @@ $$
 
 6. **$$( \frac{8 \pi G}{c^4} )$$**  
    This is the **gravitational coupling constant** — it scales the relationship between matter and geometry. It includes:
-   - $$( G )$$: Newton’s gravitational constant
-   - $$( c )$$: Speed of light
+    - $$( G )$$: Newton’s gravitational constant
+    - $$( c )$$: Speed of light
 
 ---
 
@@ -136,19 +130,22 @@ $$
 
 If space-time is a stage, the **stress-energy tensor** is the cast of characters. It tells us what’s present and how it moves.
 
-In simple terms, the **stress-energy tensor** $$( T_{\mu\nu} )$$ answers:  
+In simple terms, the **stress-energy tensor** $$( T_{\mu\nu} )$$ answers:
+
 > “What’s in this region of the universe, and how is it behaving?”
 
 It includes:
-- **Energy density** (how much energy per unit volume)
-- **Momentum** (movement of energy and mass)
-- **Pressure and stress** (forces within matter)
-- **Radiation** and even **fields** like electromagnetism
+
+-   **Energy density** (how much energy per unit volume)
+-   **Momentum** (movement of energy and mass)
+-   **Pressure and stress** (forces within matter)
+-   **Radiation** and even **fields** like electromagnetism
 
 For example:
-- In a vacuum: $$( T_{\mu\nu} = 0 )$$ → leads to solutions like black holes or gravitational waves.
-- Inside a star: $$( T_{\mu\nu} )$$ is packed with energy, pressure, and movement.
-- In the universe: $$( T_{\mu\nu} )$$ can represent cosmic expansion, dark matter, and more.
+
+-   In a vacuum: $$( T_{\mu\nu} = 0 )$$ → leads to solutions like black holes or gravitational waves.
+-   Inside a star: $$( T_{\mu\nu} )$$ is packed with energy, pressure, and movement.
+-   In the universe: $$( T_{\mu\nu} )$$ can represent cosmic expansion, dark matter, and more.
 
 So in Einstein’s view, it’s not just **mass** that creates gravity — it’s the entire content and flow of energy and momentum. That’s why light, though massless, can bend space-time — because it still carries energy.
 
@@ -159,22 +156,28 @@ So in Einstein’s view, it’s not just **mass** that creates gravity — it’
 Einstein’s Field Equations are beautiful — but incredibly hard to solve. Why?
 
 #### 1. They're Tensor Equations
+
 Each side of the equation is not a single number, but a **matrix of 10 interlinked equations**, one for each component of the tensors involved. Each component can vary in space and time.
 
 #### 2. They're Nonlinear
+
 The curvature of space-time affects how matter moves, and the movement of matter changes the curvature. This **feedback loop** makes the equations nonlinear — small changes in input can lead to complex, chaotic results.
 
 #### 3. They Depend on Boundary Conditions
+
 To solve the equations, you need to know what’s around your system — like nearby matter, the shape of space, or what happens at infinity. These **initial and boundary conditions** are often impossible to define exactly.
 
 #### 4. Real Systems Are Complex
+
 Solving for a simple, symmetric system (like a single black hole) is doable. But solving Einstein’s equations for **two merging black holes**, or **the entire universe**, requires numerical simulations and supercomputers.
 
 #### 5. Solutions Can Be Exotic
+
 Some exact solutions predict **weird phenomena**:
-- **Wormholes**
-- **Closed time-like curves** (theoretically allowing time travel)
-- **Singularities** (infinite curvature)
+
+-   **Wormholes**
+-   **Closed time-like curves** (theoretically allowing time travel)
+-   **Singularities** (infinite curvature)
 
 These are allowed by the math, but whether nature uses them is still unknown.
 
@@ -192,13 +195,13 @@ But their complexity is what makes General Relativity both intellectually rich a
 
 Now that we understand what the field equations mean, the next question is:
 
-> *What kinds of solutions do they allow?*
+> _What kinds of solutions do they allow?_
 
 In **Post 4: Solutions to Einstein’s Equations — From Black Holes to the Cosmos**, we’ll explore:
 
-- How the **Schwarzschild solution** describes black holes  
-- How Einstein’s equations predict the **expansion of the universe**  
-- Why different metrics describe very different geometries  
-- And how gravitational waves emerge from ripples in space-time
+-   How the **Schwarzschild solution** describes black holes
+-   How Einstein’s equations predict the **expansion of the universe**
+-   Why different metrics describe very different geometries
+-   And how gravitational waves emerge from ripples in space-time
 
 We’ll move from pure theory to breathtaking predictions — some confirmed, others still unfolding.
