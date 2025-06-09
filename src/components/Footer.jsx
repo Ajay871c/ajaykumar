@@ -11,13 +11,14 @@ const Footer = () => {
     return (
         <footer className="">
                 <div className="">
-                    <p className="">
+                    <small className="">
                         &copy; {new Date().getFullYear()} impulseblog. All
                         rights reserved.
-                    </p>
+                    </small>
                 </div>
 
                 <div className="socialLinks">
+                    <Link href="/privacy"><small>Privacy Policies</small></Link>
                     <Link
                         href="https://facebook.com"
                         target="_blank"

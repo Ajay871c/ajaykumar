@@ -5,7 +5,7 @@ date: "2025-06-05"
 author: "Ajay Kumar"
 authorImage: "/profile.jpg"
 coverImage: "/vacuum-history.webp"
-category: ["Physics", "History of Science"]
+category: ["Quantum Vacuum"]
 keywords:
     [
         "vacuum",

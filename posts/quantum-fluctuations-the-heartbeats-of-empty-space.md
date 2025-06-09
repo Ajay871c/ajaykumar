@@ -5,7 +5,7 @@ date: "2025-06-05"
 author: "Ajay Kumar"
 authorImage: "/profile.jpg"
 coverImage: "/quantum-fluctuations.webp"
-category: ["Quantum", "QFT"]
+category: ["Quantum Vacuum", "QFT"]
 keywords:
     [
         "quantum fluctuations",

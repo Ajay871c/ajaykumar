@@ -5,7 +5,7 @@ date: "2025-06-05"
 author: "Ajay Kumar"
 authorImage: "/profile.jpg"
 coverImage: "/quantum-vacuum-future.webp"
-category: ["Quantum", "Cosmology", "Foundations of Physics"]
+category: ["Quantum Vacuum"]
 keywords:
     [
         "quantum vacuum",

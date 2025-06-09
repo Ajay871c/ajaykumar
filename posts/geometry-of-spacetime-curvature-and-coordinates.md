@@ -5,7 +5,7 @@ date: "2025-06-7"
 author: "Ajay Kumar"
 authorImage: "/profile.jpg"
 coverImage: "/spacetime-geometry.webp"
-category: ["Relativity", "Physics", "Mathematics"]
+category: ["General Relativity"]
 keywords:
     [
         "geometry of spacetime",

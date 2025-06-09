@@ -5,7 +5,7 @@ date: "2025-06-03"
 author: "Ajay Kumar"
 authorImage: "/profile.jpg"
 coverImage: "/entangle.webp"
-category: ["Quantum", "Physics"]
+category: ["Quantum Physics"]
 ---
 
 ## Introduction

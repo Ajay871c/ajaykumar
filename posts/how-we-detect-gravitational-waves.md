@@ -5,7 +5,7 @@ date: "2025-06-07"
 author: "Ajay Kumar"
 authorImage: "/profile.jpg"
 coverImage: "/gravitational-waves.webp"
-category: ["Astrophysics", "General Relativity", "Technology"]
+category: ["Application", "General Relativity"]
 keywords:
   [
     "gravitational waves",

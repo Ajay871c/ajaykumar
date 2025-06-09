@@ -5,7 +5,7 @@ date: "2025-06-07"
 author: "Ajay Kumar"
 authorImage: "/profile.jpg"
 coverImage: "/schrodinger-cat.webp"
-category: ["Quantum Mechanics", "Philosophy of Physics", "History of Science"]
+category: ["Quantum Physics", "History of Science"]
 keywords:
   [
     "Schrödinger's cat",

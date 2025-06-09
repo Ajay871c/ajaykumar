@@ -5,7 +5,7 @@ date: "2025-06-03"
 author: "Ajay Kumar"
 authorImage: "/profile.jpg"
 coverImage: "/quantum-application.webp"
-category: ["Quantum", "Physics", "Applications"]
+category: ["Quantum Physics", "Application"]
 keywords: ["applications of quantum mechanics in daily life", "quantum mechanics uses", "real-world quantum physics", "quantum technology examples"]
 ---
 

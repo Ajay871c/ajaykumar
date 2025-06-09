@@ -5,7 +5,7 @@ date: "2025-06-8"
 author: "Ajay Kumar"
 authorImage: "/profile.jpg"
 coverImage: "/einstein-field-equations.webp"
-category: [ "Relativity", "Physics", "Gravitation" ]
+category: [ "General Relativity"]
 keywords:
     [
         "Einstein field equations explained",

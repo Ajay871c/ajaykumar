@@ -5,7 +5,7 @@ date: "2025-06-08"
 author: "Ajay Kumar"
 authorImage: "/profile.jpg"
 coverImage: "/quantum-history.webp"
-category: ["Quantum Physics", "History of Science", "Theoretical Physics"]
+category: ["Quantum Physics", "History of Science"]
 keywords:
     [
         "history of quantum mechanics",

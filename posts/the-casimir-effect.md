@@ -5,7 +5,7 @@ date: "2025-06-05"
 author: "Ajay Kumar"
 authorImage: "/profile.jpg"
 coverImage: "/casimir-effect.webp"
-category: ["Quantum", "Physics", "Nanotechnology"]
+category: ["Quantum Vacuum", "Nanotechnology"]
 keywords:
     [
         "Casimir effect",

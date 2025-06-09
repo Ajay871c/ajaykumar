@@ -5,7 +5,7 @@ date: "2025-06-06"
 author: "Ajay Kumar"
 authorImage: "/profile.jpg"
 coverImage: "/general-relativity-curved-space.webp"
-category: ["Relativity", "Physics", "Cosmology"]
+category: ["General Relativity"]
 keywords:
     [
         "need for general relativity",

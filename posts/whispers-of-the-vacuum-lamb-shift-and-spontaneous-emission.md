@@ -5,7 +5,7 @@ date: "2025-06-05"
 author: "Ajay Kumar"
 authorImage: "/profile.jpg"
 coverImage: "/lamb-shift.webp"
-category: ["Quantum", "Atomic Physics"]
+category: ["Quantum Vacuum"]
 keywords:
     [
         "Lamb shift",

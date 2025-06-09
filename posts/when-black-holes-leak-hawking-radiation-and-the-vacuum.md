@@ -5,7 +5,7 @@ date: "2025-06-05"
 author: "Ajay Kumar"
 authorImage: "/profile.jpg"
 coverImage: "/hawking-radiation.webp"
-category: ["Astrophysics", "Quantum", "General Relativity"]
+category: ["Astrophysics", "Quantum Vacuum"]
 keywords:
     [
         "Hawking radiation",

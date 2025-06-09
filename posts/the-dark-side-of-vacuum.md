@@ -5,7 +5,7 @@ date: "2025-06-05"
 author: "Ajay Kumar"
 authorImage: "/profile.jpg"
 coverImage: "/vacuum-energy-dark-expansion.webp"
-category: ["Astrophysics", "Quantum", "Cosmology"]
+category: ["Astrophysics", "Quantum Vacuum"]
 keywords:
     [
         "vacuum energy",
