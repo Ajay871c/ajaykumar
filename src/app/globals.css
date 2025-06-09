@@ -6,19 +6,23 @@
 
 
 :root {
-  --bg: #252127;
+  /* --bg: #252127;
   --bg-soft: #3e3d4d;
   --text: #ebdbe0;
-  --text-soft: #a592a0;
+  --text-soft: #a592a0; */
+  --bg: #1d2125;
+  --bg-soft: #2C333A;
+  --text: #f7f8f9;
+  --text-soft: #B3B9C4;
   --button-hover: #2a5192;
   --button: #5187ee;
 }
 
 body.dark {
-  --bg: #ebdbe0;
-  --bg-soft: #cfc0cb;
-  --text: #252127;
-  --text-soft: #3e3d4d;
+  --bg: #f7f8f9;
+  --bg-soft: #B3B9C4;
+  --text: #1d2125;
+  --text-soft: #2C333A;
   --button-hover: #5187ee;
   --button: #2a5192;
 }
@@ -56,10 +60,13 @@ body.dark {
   }
 }
 
-html, body {
-  scrollbar-width: none; /* Firefox */
+html,
+body {
+  scrollbar-width: none;
+  /* Firefox */
 }
 
 body::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Edge */
+  display: none;
+  /* Chrome, Safari, Edge */
 }

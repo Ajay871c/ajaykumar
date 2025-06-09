@@ -488,13 +488,13 @@ body {
             margin: 0 auto;
             padding: 3rem 1.5rem;
             font-family: "Inter", sans-serif;
-            color: #1e1e1e;
+            color: $text-soft;
             line-height: 1.7;
 
             h1 {
                 font-size: 2.75rem;
                 margin-bottom: 1rem;
-                color: #111;
+                color: $text;
             }
 
             .updated {
@@ -508,7 +508,7 @@ body {
                 font-size: 1.5rem;
                 margin-top: 2.5rem;
                 margin-bottom: 1rem;
-                color: #222;
+                color: $text-soft;
             }
 
             p {
