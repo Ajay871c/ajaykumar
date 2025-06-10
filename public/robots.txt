@@ -1,5 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-Sitemap: https://ajay871c.vercel.app/sitemap.xml

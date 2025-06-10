@@ -36,6 +36,44 @@ body {
         flex-direction: column;
         justify-content: space-between;
 
+        // not found page
+        .not-found {
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+
+            h1 {
+                font-size: 5rem;
+                margin-bottom: 0.5rem;
+                color: #333;
+            }
+
+            p {
+                font-size: 1.5rem;
+                margin-bottom: 0.5rem;
+            }
+
+            span {
+                color: #666;
+                margin-bottom: 1.5rem;
+                max-width: 400px;
+            }
+
+            .home-link {
+                color: #0070f3;
+                text-decoration: none;
+                font-weight: 500;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
         .navbar {
             display: flex;
             align-items: center;

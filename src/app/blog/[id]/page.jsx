@@ -2,6 +2,7 @@ import { getPostData, getAllPostIds } from "@/lib/posts";
 import Image from "next/image";
 import React from "react";
 import Head from "next/head";
+import { notFound } from "next/navigation";
 
 export async function generateStaticParams() {
     const posts = getAllPostIds();
@@ -20,10 +21,10 @@ export async function generateMetadata({ params }) {
       title: post.title,
       description: post.description,
       type: "article",
-      url: `https://yourdomain.com/blog/${post.slug}`,
+      url: `https://impulseblog.vercel.app/blog/${post.id}`,
       images: [
         {
-          url: post.coverImage, // absolute URL
+          url: post.coverImage, 
           width: 1200,
           height: 630,
           alt: post.title,
@@ -33,7 +34,7 @@ export async function generateMetadata({ params }) {
     twitter: {
       card: "summary_large_image",
       title: post.title,
-      description: post.excerpt,
+      description: post.description,
       images: [post.coverImage],
     },
   };
@@ -42,6 +43,10 @@ export async function generateMetadata({ params }) {
 export default async function PostPage({ params }) {
     const { id } = params;
     const post = await getPostData(id);
+
+    if (!post){
+        notFound()
+    }
 
     return (
         <>
@@ -68,6 +73,7 @@ export default async function PostPage({ params }) {
                                 fill
                                 alt={post.title}
                                 className="img"
+                                loading="lazy"
                             />
                         </div>
                     )}
