@@ -18,6 +18,7 @@ const Footer = () => {
                 </div>
 
                 <div className="socialLinks">
+                    <Link href="/sitemap.xml"><small>Sitemap</small></Link>
                     <Link href="/privacy"><small>Privacy Policies</small></Link>
                     <Link
                         href="https://facebook.com"
