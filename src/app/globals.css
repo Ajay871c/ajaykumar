@@ -6,10 +6,6 @@
 
 
 :root {
-  /* --bg: #252127;
-  --bg-soft: #3e3d4d;
-  --text: #ebdbe0;
-  --text-soft: #a592a0; */
   --bg: #1d2125;
   --bg-soft: #2C333A;
   --text: #f7f8f9;
@@ -20,7 +16,7 @@
 
 body.dark {
   --bg: #f7f8f9;
-  --bg-soft: #B3B9C4;
+  --bg-soft: #e7eefa;
   --text: #1d2125;
   --text-soft: #2C333A;
   --button-hover: #5187ee;

@@ -12,7 +12,7 @@ body {
     background-color: $bg;
     color: $text;
     min-height: 100vh;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-size: 14px;
 
     @media (max-width: 560px) {
@@ -141,7 +141,7 @@ body {
             .text {
                 font-size: 42px;
                 color: $button;
-                letter-spacing: 3px;
+                letter-spacing: 2px;
                 h1 {
                     font-size: 42px;
                 }
@@ -162,7 +162,7 @@ body {
 
             p {
                 font-size: small;
-                letter-spacing: 2px;
+                letter-spacing: 1px;
                 color: $text-soft;
             }
 
@@ -299,7 +299,7 @@ body {
                 color: $text;
                 font-size: 16px;
                 font-weight: bold;
-                letter-spacing: 2px;
+                letter-spacing: 1px;
             }
 
             .categories {
@@ -627,7 +627,7 @@ body {
                     font-size: 16px;
                     border-radius: 5px;
                     font-family: "Poppins", sans-serif;
-                    letter-spacing: 2px;
+                    letter-spacing: 1px;
                 }
 
                 button {
