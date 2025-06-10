@@ -23,6 +23,11 @@ const articleSeries = [
                 name: "Geodesics — How Matter Moves in Curved Spacetime",
                 url: "/blog/geodesics-in-curved-spacetime",
             },
+            {
+                id: 5,
+                name: "Schwarzschild Solution — The Simplest Curved Spacetime",
+                url: "/blog/schwarzschild-solution-curved-spacetime",
+            },
         ],
     },
     {

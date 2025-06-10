@@ -447,10 +447,12 @@ body {
                     min-height: 300px;
                     width: 100%;
                     object-fit: cover;
+                    border: 1px solid $button-hover;
+                    border-radius: 7px;
 
                     .img {
                         object-fit: cover;
-                        border-radius: 8px;
+                        border-radius: 7px;
                     }
                 }
                 @media (max-width: 560px) {
