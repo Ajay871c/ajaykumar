@@ -3,24 +3,40 @@
   padding: 0;
   margin: 0;
 }
+/* :root{
+    --bg: #1D2125;
+    --bg-soft: #22272B;
+    --text: #F7F8F9;
+    --text-soft: #F1F2F4;
+    --button: #6CC3E0;
+}
+
+body.light{
+    --bg: #F7F8F9;
+    --bg-soft: #F1F2F4;
+    --text: #1D2125;
+    --text-soft: #22272B;
+    --button: #227D9B;
+} */
+
 
 
 :root {
-  --bg: #1d2125;
-  --bg-soft: #2C333A;
+  --bg: #1D2125;
+  --bg-soft: #22272B;
   --text: #f7f8f9;
   --text-soft: #B3B9C4;
-  --button-hover: #2a5192;
-  --button: #5187ee;
+  --button-hover: #6CC3E0;
+  --button: #227D9B;
 }
 
 body.dark {
   --bg: #f7f8f9;
-  --bg-soft: #e7eefa;
+  --bg-soft: #F1F2F4;
   --text: #1d2125;
   --text-soft: #2C333A;
-  --button-hover: #5187ee;
-  --button: #2a5192;
+  --button-hover: #6CC3E0;
+  --button: #227D9B;
 }
 
 .loading-container {
